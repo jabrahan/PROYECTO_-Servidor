@@ -5,12 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch db.json"
+    "server": "json-server --watch db.json",
+    "start": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
+    "axios": "^1.6.8",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "json-server": "^1.0.0-alpha.23",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7"
   }
 }

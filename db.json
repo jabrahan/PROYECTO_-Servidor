@@ -63,14 +63,83 @@
     {
       "id": "1d1a",
       "nombre": "scsac"
+    },
+    {
+      "id": "d310",
+      "nombre": "JOSEKA"
+    },
+    {
+      "id": "e247",
+      "nombre": "Abrahan"
+    },
+    {
+      "id": "9543",
+      "nombre": "Holase"
+    },
+    {
+      "id": "c640",
+      "nombre": "Bladimir "
+    },
+    {
+      "id": "6bcf",
+      "nombre": "Bladimir"
     }
   ],
   "tareas": [
     {
-      "id": "5e07",
-      "tarea": "ascsa",
-      "idUsuario": "dfce",
-      "checked": true
+      "id": "a991",
+      "tarea": "ascsac",
+      "idUsuario": "e247"
+    },
+    {
+      "id": "af33",
+      "tarea": "sacsac",
+      "idUsuario": "e247"
+    },
+    {
+      "id": "7622",
+      "tarea": "Hola",
+      "idUsuario": "9543"
+    },
+    {
+      "id": "5933",
+      "tarea": "sdgds",
+      "idUsuario": "9543"
+    },
+    {
+      "id": "6cac",
+      "tarea": "Qlql",
+      "idUsuario": "6bcf"
+    },
+    {
+      "id": "2897",
+      "tarea": "sdsds",
+      "idUsuario": "6bcf"
+    },
+    {
+      "id": "c559",
+      "tarea": "sdsd",
+      "idUsuario": "6bcf"
+    },
+    {
+      "id": "c2e8",
+      "tarea": "sdsds",
+      "idUsuario": "6bcf"
+    },
+    {
+      "id": "3a3f",
+      "tarea": "ergerg",
+      "idUsuario": "dfce"
+    },
+    {
+      "id": "54d3",
+      "tarea": "ergerg",
+      "idUsuario": "dfce"
+    },
+    {
+      "id": "c433",
+      "tarea": "ergerg",
+      "idUsuario": "dfce"
     }
   ]
 }
