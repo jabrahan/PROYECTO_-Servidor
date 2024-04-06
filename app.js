@@ -22,10 +22,10 @@ const userRouter = require('./controllers/usuarios');
 //RUTAS DE FRONTEND (HAY QUE CREAR UNA RUTA POR CADA VENTANA QUE TENGAMOS)
 app.use('/', express.static(path.resolve('views', 'home')));
 app.use('/tareas', express.static(path.resolve('views', 'tareas')));
-app.use('/controllers', express.static(path.resolve('controllers')));
+//app.use('/controllers', express.static(path.resolve('controllers')));
 
-
-
+// Debe colocarse entre ambas rutas IMPORTANTE
+app.use(express.json());
 
 
 //RUTAS DE BACKEND

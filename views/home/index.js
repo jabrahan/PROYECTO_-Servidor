@@ -4,8 +4,8 @@ const formCreate = document.querySelector('#form-create');
 const inputCreate = document.querySelector('#create-input');
 const notificacion = document.querySelector('.notification');
 //Como estoy exportando un modulo no es encesario poner el .js al final
-const userRouter  = require('./controllers/usuarios');
-const axios = require('axios');
+//const userRouter  = require('./controllers/usuarios');
+//const axios = require('axios');
 
 
 
@@ -66,7 +66,7 @@ formCreate.addEventListener('submit', async (e) => {
             }) 
         });
         //Enviando al backend o router/controller 
-        const respuesta = await axios.post('/api/users', nombre);
+        const respuesta = await axios.post('/api/users', { nombre:inputCreate.value} );
         console.log(respuesta); 
 
 

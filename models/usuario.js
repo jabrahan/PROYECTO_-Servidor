@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const userRouter = require('../controllers/usuarios');
 
 //Definir el esquema para usuario
 
